@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import categoryData from "@/data/categoryData.json";
+import Link from "next/link";
 
 interface MobileMenuProps {
   isMenuOpen: boolean;
@@ -15,12 +16,20 @@ const MobileMenu = ({ isMenuOpen }: MobileMenuProps) => {
     <div className={`${isMenuOpen ? "block" : "hidden"} md:hidden`}>
       <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
         <li>
-          <a
-            href="#"
+          <Link
+            href="/"
             className="block px-3 py-2 rounded-md text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300"
           >
             Home
-          </a>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="/pc-builder"
+            className="block px-3 py-2 rounded-md text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300"
+          >
+            PC Builder
+          </Link>
         </li>
         <li>
           <div className="relative">

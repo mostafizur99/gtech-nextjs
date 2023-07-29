@@ -1,14 +1,20 @@
+import Link from "next/link";
+import Image from "next/image";
+import { useRouter } from "next/router";
 import { TfiUser } from "react-icons/tfi";
 import { TbCategory2 } from "react-icons/tb";
 import { AiFillStar } from "react-icons/ai";
-import Link from "next/link";
-import Image from "next/image";
 
-type ProductCardProps = {
+type BuildProductCardProps = {
   data: any;
 };
 
-const ProductCard = ({ data }: ProductCardProps) => {
+const BuildProductCard = ({ data }: BuildProductCardProps) => {
+  const router = useRouter();
+
+  const handleSelect = () => {
+    router.push("/pc-builder");
+  };
   return (
     <div
       className={`relative h-full grid content-between p-4 border-gray bg-white border border-solid transition-all rounded-md group hover:border-themePrimary`}
@@ -16,7 +22,7 @@ const ProductCard = ({ data }: ProductCardProps) => {
       {data.category && (
         <span className="absolute right-3 top-3 flex flex-wrap gap-2">
           <span className="bg-themeSecondary/5 py-1 px-2.5 rounded-sm text-xs font-normal text-themeSecondary">
-            {data.category.title}
+            {data?.category?.title}
           </span>
         </span>
       )}
@@ -55,15 +61,16 @@ const ProductCard = ({ data }: ProductCardProps) => {
           </li>
         </ul>
         <div>
-          <Link href={data?._id ? `/product/${data?._id}` : "#"}>
-            <p className="leading-4 text-themeDarker text-sm text-white bg-themePrimary group-hover:text-themeSecondary text-center py-3 px-6 rounded-md transition-all ">
-              View Details
-            </p>
-          </Link>
+          <button
+            onClick={handleSelect}
+            className="w-full py-3 px-6 text-white leading-4 text-themeDarker text-sm bg-themeSecondary hover:bg-themePrimary  text-center rounded-md transition-all "
+          >
+            Select
+          </button>
         </div>
       </div>
     </div>
   );
 };
 
-export default ProductCard;
+export default BuildProductCard;

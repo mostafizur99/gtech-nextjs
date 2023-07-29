@@ -26,20 +26,20 @@ const Navbar = () => {
           <div className="hidden md:block">
             <ul className="ml-4 flex space-x-4">
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300 px-4 py-2 rounded-md"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/pc-builder"
                   className="text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300 px-4 py-2 rounded-md"
                 >
                   PC Builder
-                </a>
+                </Link>
               </li>
               <li>
                 <div className="relative group">
