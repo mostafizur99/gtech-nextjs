@@ -36,7 +36,7 @@ const HomePage = () => {
         {CategoryData && CategoryData?.length > 0 && (
           <div className="grid gap-6 xl:gap-8 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
             {CategoryData.map((item, index: number) => (
-              <Link href={"#"} key={index}>
+              <Link href={`/category/${item.slug}`} key={index}>
                 <div className="bg-themeSecondary/5 py-5 px-5 text-themeSecondary font-semibold flex justify-center items-center hover:bg-themeSecondary/10  ase-in duration-300">
                   {item.title}
                 </div>
