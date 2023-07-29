@@ -1,7 +1,6 @@
 export interface IProduct {
   _id: string;
   title: string;
-  slug: string;
   category: {
     title: string;
     slug: string;

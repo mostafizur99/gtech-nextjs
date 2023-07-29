@@ -1,14 +1,13 @@
 [
   {
-    "_id": "123",
-    "title": "onn. 24inch FHD (1920 x 1080) 75hz Office Monitor",
-    "slug": "cpu-processor",
+    "_id": "61",
+    "title": "SAMSUNG 27inch Class Curved VGA HDMI",
     "category": {
       "title": "Monitor",
       "slug": "monitor"
     },
-    "thumb": "/images/products/monitor2.png",
-    "price": "200",
+    "thumb": "/images/products/6_monitor1.png",
+    "price": "129",
     "status": "in-stock",
     "individualRating ": "5",
     "averageRating ": "5",
@@ -18,24 +17,27 @@
         "comment": "Best"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum assumenda, veritatis asperiores recusandae incidunt amet doloremque ea aliquid fugit rerum consequatur pariatur in sed blanditiis ipsam voluptatem adipisci aperiam veniam quos quidem laborum. Esse pariatur dolore aliquam, sint tempore a quaerat quae laudantium animi dicta quisquam doloribus vel praesentium impedit?",
+    "description": "The Samsung CF396 Series Curved 27inch FHD Monitor is an innovative screen that provides a truly immersive viewing experience. Its sleek design has a stainless steel and high-gloss black finish with a unique T-shaped stand to balance the shape of the screen. The slim design will keep your desk looking tidy and modern",
     "features": [
       {
-        "title": "Resolution",
-        "value": " FHD (1080P)"
+        "title": "Ratio",
+        "value": "16:9 aspect ratio"
+      },
+      {
+        "title": "Curve",
+        "value": "Leading 1800R screen curvature"
       }
     ]
   },
   {
-    "_id": "1234",
-    "title": "onn. 24inch FHD (1920 x 1080) 75hz Office Monitor",
-    "slug": "cpu-processor",
+    "_id": "62",
+    "title": "KOORUI 24 inch IPS High-Performance Gaming Monitor,",
     "category": {
-      "title": "CPU / Processor",
-      "slug": "cpu-processor"
+      "title": "Monitor",
+      "slug": "monitor"
     },
-    "thumb": "",
-    "price": "200",
+    "thumb": "/images/products/6_monitor2.png",
+    "price": "80",
     "status": "in-stock",
     "individualRating ": "5",
     "averageRating ": "5",
@@ -45,11 +47,519 @@
         "comment": "Best"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum assumenda, veritatis asperiores recusandae incidunt amet doloremque ea aliquid fugit rerum consequatur pariatur in sed blanditiis ipsam voluptatem adipisci aperiam veniam quos quidem laborum. Esse pariatur dolore aliquam, sint tempore a quaerat quae laudantium animi dicta quisquam doloribus vel praesentium impedit?",
+    "description": "KOORUI provide high-quality computer monitors and premium services, included 3 year warranty and 12 month replacement service. If you find any damage, malfunction or missing accessories, please feel free to contact us.",
     "features": [
       {
+        "title": "Warrenty",
+        "value": " 3 year warranty"
+      },
+      {
+        "title": "Screen Size",
+        "value": "24 Inch"
+      }
+    ]
+  },
+  {
+    "_id": "63",
+    "title": "KOORUI 24 inch High-Performance 165Hz/144Hz",
+    "category": {
+      "title": "Monitor",
+      "slug": "monitor"
+    },
+    "thumb": "/images/products/6_monitor3.png",
+    "price": "99",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "KOORUI 24'' gaming monitor designed for game player, with the overall fuselage is traditional red and black, and the stand base with clear water chestnuts is like a traditional Chinese warrior. The three-sided nearly frameless screen helps you release the pressure of desktop space, while making you more focused on work and more engaged in entertainment. The e-sports pattern on the back is matched with red, which burns blood with inheritance, makes life full of passion, and strives for e-sports for dreams.",
+    "features": [
+      {
+        "title": "Warrenty",
+        "value": " 3 year warranty"
+      },
+      {
+        "title": "Screen Size",
+        "value": "24 Inch"
+      },
+      {
         "title": "Resolution",
-        "value": " FHD (1080P)"
+        "value": "1920x1080p/FHD"
+      }
+    ]
+  },
+  {
+    "_id": "11",
+    "title": "Intel Core i5-13600K CPU - 3.5 GHz",
+    "category": {
+      "title": "CPU / Processor",
+      "slug": "cpu-processor"
+    },
+    "thumb": "/images/products/processor1.png",
+    "price": "317",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Power up your productivity, gaming, and content creation with the Intel Core i7-13700K 3.4 GHz 16-Core LGA 1700 Processor. This 13th generation desktop processor builds upon the Hybrid Core architecture and Intel 7 process by fitting 16 cores— four more than the previous generation— onto a single processor while still fitting the LGA 1700 socket. Designed to provide high performance",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Performance",
+        "value": "3.5 GHz"
+      }
+    ]
+  },
+  {
+    "_id": "12",
+    "title": "Intel Core i7-13700K CPU - 3.4 GHz",
+    "category": {
+      "title": "CPU / Processor",
+      "slug": "cpu-processor"
+    },
+    "thumb": "/images/products/processor2.png",
+    "price": "409",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Power up your productivity, gaming, and content creation with the Intel Core i7-13700K 3.4 GHz 16-Core LGA 1700 Processor. This 13th generation desktop processor builds upon the Hybrid Core architecture and Intel 7 process by fitting 16 cores— four more than the previous generation— onto a single processor while still fitting the LGA 1700 socket. Designed to provide high performance",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Performance",
+        "value": "3.4 GHz"
+      }
+    ]
+  },
+  {
+    "_id": "13",
+    "title": "Intel Core i9-13900K CPU - 3 GHz",
+    "category": {
+      "title": "CPU / Processor",
+      "slug": "cpu-processor"
+    },
+    "thumb": "/images/products/processor3.png",
+    "price": "568",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Power up your productivity, gaming, and content creation with the Intel Core i7-13700K 3.4 GHz 16-Core LGA 1700 Processor. This 13th generation desktop processor builds upon the Hybrid Core architecture and Intel 7 process by fitting 16 cores— four more than the previous generation— onto a single processor while still fitting the LGA 1700 socket. Designed to provide high performance",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Performance",
+        "value": "3 GHz"
+      }
+    ]
+  },
+  {
+    "_id": "21",
+    "title": "MSI A520M-A PRO Desktop Motherboard",
+    "category": {
+      "title": "Motherboard",
+      "slug": "motherboard"
+    },
+    "thumb": "/images/products/2_motherboard1.png",
+    "price": "69",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "MSI A520M-A series motherboards support all the latest storage standards, which allows users to connect any ultra-fast storage device. Higher efficiency makes your work easier. The A520M-A PRO helps users work smarter by delivering an efficient and productive experience. ",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Memory",
+        "value": "DDR4 Memory"
+      }
+    ]
+  },
+  {
+    "_id": "22",
+    "title": "ASUS ROG Strix Intel Z490-F",
+    "category": {
+      "title": "Motherboard",
+      "slug": "motherboard"
+    },
+    "thumb": "/images/products/2_motherboard2.png",
+    "price": "495",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Intel LGA 1200 socket: Designed to unleash the maximum performance of 10th Gen Intel Core processors. Robust Power Solution: 12+2 Dr. MOS power stages with ProCool II power connector, high-quality alloy chokes and durable capacitors to provide reliable power even when push the CPU performance to the limit",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Memory",
+        "value": "DDR4-SDRAM"
+      },
+      {
+        "title": "Chipset",
+        "value": "Intel Z490"
+      }
+    ]
+  },
+  {
+    "_id": "23",
+    "title": "MSI B550 GAMING GEN3 AM4 ",
+    "category": {
+      "title": "Motherboard",
+      "slug": "motherboard"
+    },
+    "thumb": "/images/products/2_motherboard3.png",
+    "price": "109",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Intel LGA 1200 socket: Designed to unleash the maximum performance of 10th Gen Intel Core processors. Robust Power Solution: 12+2 Dr. MOS power stages with ProCool II power connector, high-quality alloy chokes and durable capacitors to provide reliable power even when push the CPU performance to the limit",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Memory",
+        "value": "DDR4"
+      }
+    ]
+  },
+  {
+    "_id": "31",
+    "title": "CORSAIR Vengeance RGB Pro 32GB",
+    "category": {
+      "title": "RAM",
+      "slug": "ram"
+    },
+    "thumb": "/images/products/3_ram1.png",
+    "price": "96",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "CORSAIR Vengeance RGB Pro 32GB (2 x 16GB) 288-Pin PC RAM DDR4 3200 (PC4 25600) Desktop Memory Model CMW32GX4M2E3200C16",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Bandwidth",
+        "value": "Optimized"
+      }
+    ]
+  },
+  {
+    "_id": "32",
+    "title": "CORSAIR Vengeance LPX 16GB",
+    "category": {
+      "title": "RAM",
+      "slug": "ram"
+    },
+    "thumb": "/images/products/3_ram2.png",
+    "price": "39",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "MAIN OVERVIEW FEATURES: Memory Size: 16 GBMemory Technology: DDR4 SDRAMMemory Voltage: 1.35 VNumber of Modules: 2 x 8 GBMemory Speed: 3200 MHzMemory Standard: DDR4-3200/PC4-25600Error Checking",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Heatspreader",
+        "value": "Low-profile"
+      }
+    ]
+  },
+  {
+    "_id": "33",
+    "title": "CORSAIR Vengeance LPX 16GB",
+    "category": {
+      "title": "RAM",
+      "slug": "ram"
+    },
+    "thumb": "/images/products/3_ram3.png",
+    "price": "39",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "MAIN OVERVIEW FEATURES: Memory Size: 16 GBMemory Technology: DDR4 SDRAMMemory Voltage: 1.35 VNumber of Modules: 2 x 8 GBMemory Speed: 3200 MHzMemory Standard: DDR4-3200/PC4-25600Error Checking",
+    "features": [
+      {
+        "title": "Generation",
+        "value": "13th generation"
+      },
+      {
+        "title": "Heatspreader",
+        "value": "Low-profile"
+      }
+    ]
+  },
+  {
+    "_id": "41",
+    "title": "Smartbuy 1000W 1000 WATT RGB LED Fan Silent PC ATX ",
+    "category": {
+      "title": "Power Supply Unit",
+      "slug": "power-supply-unit"
+    },
+    "thumb": "/images/products/4_power-supply1.png",
+    "price": "64",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Peak-power 1000W, suitable for high-end computer configuration in the market. In accordance with Intel ATX12V specification design, support Intel, AMD full range of dual-core platform, support Win7, Win10 and above operating system. Using 12cm hydraulic bearing LED fan",
+    "features": [
+      {
+        "title": "Material",
+        "value": "Aluminum Alloy Shell"
+      },
+      {
+        "title": "Fan Diameter",
+        "value": "12cm / 5.5inch"
+      }
+    ]
+  },
+  {
+    "_id": "42",
+    "title": "Thermaltake Smart 80PLUS White",
+    "category": {
+      "title": "Power Supply Unit",
+      "slug": "power-supply-unit"
+    },
+    "thumb": "/images/products/4_power-supply2.png",
+    "price": "44",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Save Smart with Thermaltake's latest budget friendly power solutions, the Smart Series Power Supplies. Offering 80 PLUS Certified models for a effective power solution. All Smart Series power supplies offer an excellent 5 year warranty and Continuous Power design, provide clean reliable power for years to come.",
+    "features": [
+      {
+        "title": "Certified",
+        "value": "80 PLUS Certified."
+      },
+      {
+        "title": "Fan Diameter",
+        "value": "Ultra Quiet 120mm Fan"
+      }
+    ]
+  },
+  {
+    "_id": "43",
+    "title": "SAMA Platinum 1000W PC",
+    "category": {
+      "title": "Power Supply Unit",
+      "slug": "power-supply-unit"
+    },
+    "thumb": "/images/products/4_power-supply3.png",
+    "price": "140",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "ATX 3.0 Platinum Series Power Supply is designed to meet the demands of modern PC builds. It features a full voltage range of 100-240V, a high-speed 12VHPWR power supply, and PCIe 5.0 support. This power supply is designed to provide stable and powerful output to support the latest graphics cards and other high-performance components.",
+    "features": [
+      {
+        "title": "Certified",
+        "value": "1.80PLUS Platinum Certification."
+      },
+      {
+        "title": "Tested",
+        "value": "2.50°C reliability test"
+      },
+      {
+        "title": "Fan Diameter",
+        "value": "Ultra Quiet 120mm Fan"
+      }
+    ]
+  },
+  {
+    "_id": "51",
+    "title": "Fanxiang S101 256GB Storage SSD",
+    "category": {
+      "title": "Storage Device",
+      "slug": "storage-device"
+    },
+    "thumb": "/images/products/5_memory1.png",
+    "price": "14",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "FANXIANG S101 internal solid state drive has preferred 3D NAND TLC flash chip, built-in wear-leveling technology and LDPC error correction. It is compatible with most laptops and desktop computers with SATA 3.0 interface and comes with a 3-year limited warranty.",
+    "features": [
+      {
+        "title": "Performance:",
+        "value": "High uptp 550MB/s"
+      },
+      {
+        "title": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "title": "Anti-Shock and Anti-Drop",
+        "value": "Sturdy case that can resist certain shocks"
+      }
+    ]
+  },
+  {
+    "_id": "52",
+    "title": "FWD Western Digital AV-GP 500GB",
+    "category": {
+      "title": "Storage Device",
+      "slug": "storage-device"
+    },
+    "thumb": "/images/products/5_memory2.png",
+    "price": "19",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Western Digital 500GB 32MB Cache 3.5' AV-GP drives are the cool, quiet and reliable choice for always-on 24/7 applications. They are designed for Desktop PC, media center, media server, surveillance DVR, digital signage and other AV systems requiring perfect audio and video, low heat, low power and long term reliability. 24x7 reliability Near silent operation Silk Stream Technology Ultra-cool operation Low power consumption 1 million hours MTTF (MTBF) Preemptive Wear Leveling (PWL)",
+    "features": [
+      {
+        "title": "Performance:",
+        "value": "High uptp 550MB/s"
+      },
+      {
+        "title": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "title": "Cool and quiet",
+        "value": "WD Greenpower Technology to lower heat"
+      }
+    ]
+  },
+  {
+    "_id": "53",
+    "title": "Fanxiang S101 512GB SSD",
+    "category": {
+      "title": "Storage Device",
+      "slug": "storage-device"
+    },
+    "thumb": "/images/products/5_memory3.png",
+    "price": "19",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "FANXIANG S101 internal solid state drive has preferred 3D NAND TLC flash chip, built-in wear-leveling technology and LDPC error correction. It is compatible with most laptops and desktop computers with SATA 3.0 interface and comes with a 3-year limited warranty.",
+    "features": [
+      {
+        "title": "Performance:",
+        "value": "High uptp 550MB/s"
+      },
+      {
+        "title": "Warranty",
+        "value": "3-Year Warranty"
+      },
+      {
+        "title": "Anti-Shock and Anti-Drop",
+        "value": "Sturdy case that can resist certain shock"
       }
     ]
   }
