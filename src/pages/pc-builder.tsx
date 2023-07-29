@@ -15,7 +15,7 @@ const PcBuilderPage = () => {
             {CategoryData.map((item, index: number) => (
               <div
                 key={index}
-                className="min-h-[100px] py-5 px-5 flex justify-between items-center bg-themeSecondary/5 hover:bg-themeSecondary/10 ase-in duration-300 "
+                className="min-h-[100px] py-5 px-5 flex justify-between items-center bg-themePrimary/5 hover:bg-themePrimary/10 border-b ase-in duration-300 "
               >
                 <h4 className="text-themeSecondary font-semibold ">
                   {item.title}

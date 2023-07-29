@@ -53,12 +53,12 @@ const Navbar = () => {
                     <ul className="mt-6 bg-white rounded-md w-40 shadow-lg">
                       {categoryData.map((category, index) => (
                         <li key={index}>
-                          <a
-                            href="#"
+                          <Link
+                            href={`/category/${category.slug}`}
                             className="block px-4 py-2 text-sm  text-themePrimary hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300"
                           >
                             {category.title}
-                          </a>
+                          </Link>
                         </li>
                       ))}
                     </ul>

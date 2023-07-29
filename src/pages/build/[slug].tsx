@@ -1,6 +1,4 @@
 import React, { ReactElement } from "react";
-import Image from "next/image";
-import { MdOutlineComment } from "react-icons/md";
 import RootLayout from "@/components/layouts/RootLayout";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { IProduct } from "@/types/product";
