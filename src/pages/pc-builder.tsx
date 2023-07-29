@@ -7,7 +7,7 @@ import { RootState } from "@/redux/store";
 import Image from "next/image";
 
 const PcBuilderPage = () => {
-  const products = useSelector((state: RootState) => state.products.products);
+  const { products, quant } = useSelector((state: RootState) => state.products);
   return (
     <div className="container mx-auto pt-14 pb-20 px-5 md:px-0">
       <div className="text-center mb-14">
@@ -66,6 +66,17 @@ const PcBuilderPage = () => {
             })}
           </div>
         )}
+      </div>
+
+      <div className="flex justify-center mt-10">
+        <button
+          disabled={quant < 5}
+          className={`py-3 px-6 text-white leading-4 text-themeDarker text-sm ${
+            quant < 5 ? "bg-themeSecondary/40" : "bg-themeSecondary"
+          }  text-center rounded-md`}
+        >
+          Complete Build
+        </button>
       </div>
     </div>
   );

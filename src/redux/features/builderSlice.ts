@@ -4,10 +4,12 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 
 interface IProductBuild {
   products: IProduct[];
+  quant: number;
 }
 
 const initialState: IProductBuild = {
   products: [],
+  quant: 0,
 };
 
 export const builderSlice = createSlice({
@@ -21,6 +23,7 @@ export const builderSlice = createSlice({
 
       if (!existing) {
         state.products.push({ ...action.payload });
+        state.quant++;
       }
     },
   },
