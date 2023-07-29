@@ -4,6 +4,8 @@ import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 
 import { Inter } from "next/font/google";
+import { Provider } from "react-redux";
+import { store } from "@/redux/store";
 const inter = Inter({ subsets: ["latin"] });
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
@@ -17,5 +19,7 @@ type AppPropsWithLayout = AppProps & {
 export default function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   const getLayout = Component.getLayout ?? ((page) => page);
 
-  return getLayout(<Component {...pageProps} />);
+  return (
+    <Provider store={store}>{getLayout(<Component {...pageProps} />)}</Provider>
+  );
 }

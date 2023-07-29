@@ -4,15 +4,20 @@ import { useRouter } from "next/router";
 import { TfiUser } from "react-icons/tfi";
 import { TbCategory2 } from "react-icons/tb";
 import { AiFillStar } from "react-icons/ai";
+import { IProduct } from "@/types/product";
+import { useDispatch } from "react-redux";
+import { addToBuild } from "@/redux/features/builderSlice";
 
 type BuildProductCardProps = {
   data: any;
 };
 
 const BuildProductCard = ({ data }: BuildProductCardProps) => {
+  const dispatch = useDispatch();
   const router = useRouter();
 
-  const handleSelect = () => {
+  const handleSelect = (product: IProduct) => {
+    dispatch(addToBuild(product));
     router.push("/pc-builder");
   };
   return (
@@ -62,7 +67,9 @@ const BuildProductCard = ({ data }: BuildProductCardProps) => {
         </ul>
         <div>
           <button
-            onClick={handleSelect}
+            onClick={() => {
+              handleSelect(data);
+            }}
             className="w-full py-3 px-6 text-white leading-4 text-themeDarker text-sm bg-themeSecondary hover:bg-themePrimary  text-center rounded-md transition-all "
           >
             Select
