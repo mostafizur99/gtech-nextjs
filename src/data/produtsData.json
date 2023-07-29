@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "123",
+    "title": "onn. 24inch FHD (1920 x 1080) 75hz Office Monitor",
+    "slug": "cpu-processor",
+    "category": {
+      "title": "Monitor",
+      "slug": "monitor"
+    },
+    "thumb": "/images/products/monitor2.png",
+    "price": "200",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum assumenda, veritatis asperiores recusandae incidunt amet doloremque ea aliquid fugit rerum consequatur pariatur in sed blanditiis ipsam voluptatem adipisci aperiam veniam quos quidem laborum. Esse pariatur dolore aliquam, sint tempore a quaerat quae laudantium animi dicta quisquam doloribus vel praesentium impedit?",
+    "features": [
+      {
+        "title": "Resolution",
+        "value": " FHD (1080P)"
+      }
+    ]
+  },
+  {
+    "_id": "1234",
+    "title": "onn. 24inch FHD (1920 x 1080) 75hz Office Monitor",
+    "slug": "cpu-processor",
+    "category": {
+      "title": "CPU / Processor",
+      "slug": "cpu-processor"
+    },
+    "thumb": "",
+    "price": "200",
+    "status": "in-stock",
+    "individualRating ": "5",
+    "averageRating ": "5",
+    "reviews ": [
+      {
+        "rating": "5",
+        "comment": "Best"
+      }
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum assumenda, veritatis asperiores recusandae incidunt amet doloremque ea aliquid fugit rerum consequatur pariatur in sed blanditiis ipsam voluptatem adipisci aperiam veniam quos quidem laborum. Esse pariatur dolore aliquam, sint tempore a quaerat quae laudantium animi dicta quisquam doloribus vel praesentium impedit?",
+    "features": [
+      {
+        "title": "Resolution",
+        "value": " FHD (1080P)"
+      }
+    ]
+  }
+]
