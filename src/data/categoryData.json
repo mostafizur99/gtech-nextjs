@@ -1,0 +1,26 @@
+[
+  {
+    "title": "CPU / Processor",
+    "slug": "cpu-processor"
+  },
+  {
+    "title": "Motherboard",
+    "slug": "motherboard"
+  },
+  {
+    "title": "RAM",
+    "slug": "ram"
+  },
+  {
+    "title": "Power Supply Unit",
+    "slug": "power-supply-unit"
+  },
+  {
+    "title": "Storage Device",
+    "slug": "storage-device"
+  },
+  {
+    "title": "Monitor",
+    "slug": "monitor"
+  }
+]

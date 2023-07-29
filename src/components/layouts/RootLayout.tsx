@@ -1,4 +1,5 @@
 import React, { ReactNode } from "react";
+import Navbar from "../shared/Navbar";
 
 interface RootLayoutProps {
   children: ReactNode;
@@ -7,7 +8,7 @@ interface RootLayoutProps {
 const RootLayout = ({ children }: RootLayoutProps) => {
   return (
     <>
-      <h2>Navbar</h2>
+      <Navbar />
       <main className="min-h-screen">{children}</main>
       <h2>Footer</h2>
     </>
