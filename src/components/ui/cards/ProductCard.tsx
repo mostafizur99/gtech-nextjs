@@ -28,6 +28,8 @@ const ProductCard = ({ data }: ProductCardProps) => {
               className="h-full w-full rounded-lg object-cover border border-themePrimary/5 p-1 md:p-2"
               src={data?.thumb || "/images/products/placeholder-image.jpg"}
               alt="img"
+              priority
+              sizes="(max-width: 768px) 72vw, (max-width: 1200px) 30vw, 25vw"
             />
           </div>
         </div>

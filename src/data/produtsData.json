@@ -9,9 +9,9 @@
     "thumb": "/images/products/6_monitor1.png",
     "price": "129",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -39,9 +39,9 @@
     "thumb": "/images/products/6_monitor2.png",
     "price": "80",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -69,9 +69,9 @@
     "thumb": "/images/products/6_monitor3.png",
     "price": "99",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -103,9 +103,9 @@
     "thumb": "/images/products/processor1.png",
     "price": "317",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -133,9 +133,9 @@
     "thumb": "/images/products/processor2.png",
     "price": "409",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -163,9 +163,9 @@
     "thumb": "/images/products/processor3.png",
     "price": "568",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -193,9 +193,9 @@
     "thumb": "/images/products/2_motherboard1.png",
     "price": "69",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -223,9 +223,9 @@
     "thumb": "/images/products/2_motherboard2.png",
     "price": "495",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -257,9 +257,9 @@
     "thumb": "/images/products/2_motherboard3.png",
     "price": "109",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -287,9 +287,9 @@
     "thumb": "/images/products/3_ram1.png",
     "price": "96",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -317,9 +317,9 @@
     "thumb": "/images/products/3_ram2.png",
     "price": "39",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -347,9 +347,9 @@
     "thumb": "/images/products/3_ram3.png",
     "price": "39",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -377,9 +377,9 @@
     "thumb": "/images/products/4_power-supply1.png",
     "price": "64",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -407,9 +407,9 @@
     "thumb": "/images/products/4_power-supply2.png",
     "price": "44",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -437,9 +437,9 @@
     "thumb": "/images/products/4_power-supply3.png",
     "price": "140",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -471,9 +471,9 @@
     "thumb": "/images/products/5_memory1.png",
     "price": "14",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -505,9 +505,9 @@
     "thumb": "/images/products/5_memory2.png",
     "price": "19",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
@@ -539,9 +539,9 @@
     "thumb": "/images/products/5_memory3.png",
     "price": "19",
     "status": "in-stock",
-    "individualRating ": "5",
-    "averageRating ": "5",
-    "reviews ": [
+    "individualRating": "5",
+    "averageRating": "5",
+    "reviews": [
       {
         "rating": "5",
         "comment": "Best"
