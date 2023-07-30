@@ -6,6 +6,7 @@ import RootLayout from "@/components/layouts/RootLayout";
 import ProductCard from "@/components/ui/cards/ProductCard";
 import CategoryData from "@/data/categoryData.json";
 import { IProduct } from "@/types/product";
+import SiteBanner from "@/components/ui/banner/SiteBanner";
 
 type HomePageProps = {
   products?: IProduct[];
@@ -18,6 +19,7 @@ const HomePage = ({ products }: HomePageProps) => {
         <title>gTech | Home</title>
       </Head>
       <div>
+        <SiteBanner />
         {/* featured-products section  */}
         <div className="container mx-auto pt-14 pb-20 px-5 md:px-0">
           <div className="text-center mb-14">
