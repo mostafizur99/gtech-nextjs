@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 import MobileMenu from "./MobileMenu";
 import categoryData from "@/data/categoryData.json";
+import { useSession, signOut } from "next-auth/react";
 
 const Navbar = () => {
+  const { data: loginSession } = useSession();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -43,10 +45,7 @@ const Navbar = () => {
               </li>
               <li>
                 <div className="relative group">
-                  <a
-                    href="#"
-                    className="px-4 py-2 rounded-md text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300"
-                  >
+                  <a className="cursor-pointer px-4 py-2 rounded-md text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300">
                     Categories
                   </a>
                   <div className="absolute left-0 hidden group-hover:block z-10">
@@ -65,6 +64,26 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
+
+              {loginSession ? (
+                <li>
+                  <a
+                    className="px-4 py-2 font-medium text-themePrimary bg-themeSecondary ase-in duration-300 rounded-md cursor-pointer"
+                    onClick={() => signOut()}
+                  >
+                    Logout
+                  </a>
+                </li>
+              ) : (
+                <li>
+                  <Link
+                    href="/login"
+                    className="text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300 px-4 py-2 rounded-md"
+                  >
+                    Login
+                  </Link>
+                </li>
+              )}
             </ul>
           </div>
           {/* mobile-nav toggle button  */}

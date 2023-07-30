@@ -1,12 +1,15 @@
 import React, { useState } from "react";
-import categoryData from "@/data/categoryData.json";
 import Link from "next/link";
+import { useSession, signOut } from "next-auth/react";
+import categoryData from "@/data/categoryData.json";
 
 interface MobileMenuProps {
   isMenuOpen: boolean;
 }
 
 const MobileMenu = ({ isMenuOpen }: MobileMenuProps) => {
+  const { data: loginSession } = useSession();
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -57,6 +60,25 @@ const MobileMenu = ({ isMenuOpen }: MobileMenuProps) => {
             </ul>
           </div>
         </li>
+        {loginSession ? (
+          <li>
+            <a
+              className="block text-center px-3 py-2 font-medium text-themePrimary bg-themeSecondary ase-in duration-300 rounded-md cursor-pointer"
+              onClick={() => signOut()}
+            >
+              Logout
+            </a>
+          </li>
+        ) : (
+          <li>
+            <Link
+              href="/login"
+              className="block px-3 py-2 rounded-md text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300"
+            >
+              Login
+            </Link>
+          </li>
+        )}
       </ul>
     </div>
   );
