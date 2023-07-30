@@ -8,7 +8,7 @@ const SiteBanner = () => {
       style={{ backgroundImage: "url('/images/banner-bg.jpg')" }}
     >
       <div className="absolute inset-0 bg-opacity-75 bg-themePrimary/70 z-20"></div>
-      <div className="text-center z-50">
+      <div className="text-center z-30">
         <h1 className="text-4xl font-bold mb-2">GTech World</h1>
         <p className="text-xl mb-8 italic text-themeSecondary font-medium">
           Get The Best with Updated Tech!

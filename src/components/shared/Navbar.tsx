@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-themePrimary px-4 py-2">
+    <nav className="bg-themePrimary px-4 py-2 border-b border-themeSecondary/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* site logo  */}
@@ -48,7 +48,7 @@ const Navbar = () => {
                   <a className="cursor-pointer px-4 py-2 rounded-md text-white hover:text-themeSecondary hover:bg-themeSecondary/5 ase-in duration-300">
                     Categories
                   </a>
-                  <div className="absolute left-0 hidden group-hover:block z-10">
+                  <div className="absolute left-0 hidden group-hover:block z-50">
                     <ul className="mt-6 bg-white rounded-md w-40 shadow-lg">
                       {categoryData.map((category, index) => (
                         <li key={index}>
