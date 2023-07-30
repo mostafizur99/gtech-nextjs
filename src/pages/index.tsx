@@ -67,6 +67,13 @@ HomePage.getLayout = function getLayout(page: ReactElement) {
 export default HomePage;
 
 export const getStaticProps: GetStaticProps = async () => {
+  // if (typeof window === "undefined") {
+  //   return {
+  //     props: {
+  //       products: [],
+  //     },
+  //   };
+  // }
   const res = await fetch(`${process.env.SITE_URL}/api/v1/product`);
   const productsData = await res?.json();
 

@@ -59,5 +59,5 @@ export const getStaticProps: GetStaticProps = async ({ params }: any) => {
   const products = productsData?.data.filter(
     (product: IProduct) => product.category.slug === params.slug
   );
-  return { props: { products } };
+  return { props: { products: products || [] } };
 };

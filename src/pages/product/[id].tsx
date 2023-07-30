@@ -144,7 +144,8 @@ export default ProductDetails;
 export const getStaticPaths: GetStaticPaths = async () => {
   const res = await fetch(`${process.env.SITE_URL}/api/v1/product`);
   const productsData = await res?.json();
-  const paths = productsData?.data.map((product: IProduct) => ({
+  const allProducts = productsData.data || [];
+  const paths = allProducts.map((product: IProduct) => ({
     params: { id: product._id.toString() },
   }));
   return { paths, fallback: false };
